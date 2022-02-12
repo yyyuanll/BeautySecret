@@ -379,6 +379,7 @@ form.sign-in-form {
     .right-panel .image,
     .right-panel .content {
       transform: translateY(600px);
+      transition-delay: 0.5s;
     }
   
     .container.sign-up-mode .signin-signup {
