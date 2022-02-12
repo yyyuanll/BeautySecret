@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="user.css" />
     <link rel="stylesheet" href="reset.css" />
     <title>User</title>
@@ -12,6 +16,99 @@
     <div class="bar">
       <iframe style="margin: 0px; float: left;" MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="bar.html" width="100%"  height="40px"></iframe>
     </div>
-    <div><p>用户中心</p></div>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">登录</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="用户名" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="密码" />
+            </div>
+            <input type="submit" value="立即登录" class="btn solid" />
+            <p class="social-text">或通过第三方平台登录</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-qq"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-weixin"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-weibo"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-alipay"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">注册</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="用户名" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="密码" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="邮箱" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="text" placeholder="验证码" />
+            </div>
+            <input type="submit" class="btn" value="立即注册" />
+            <p class="social-text">或通过第三方平台注册</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-qq"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-weixin"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-weibo"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-alipay"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>还没有账号?</h3>
+            <p>
+              快来加入我们，一起解锁美白密码。
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              去注册
+            </button>
+          </div>
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>已有账号 立即登录</h3>
+            <p>
+              您已加入美白密码，赶快登录探索美白的秘密吧。
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              去登录
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="user.js"></script>
   </body>
 </html>

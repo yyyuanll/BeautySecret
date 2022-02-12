@@ -13,23 +13,23 @@
     width: 120px;
     height: 40px;
     text-align: left;
-    padding-left: 5px;
     transition: background 0.3s;	
 }
 
 .logo img {
-    margin: 0 auto;
+    margin: 5px 8px;
     height: 30px;
 }
 
 .nav {
     position: fixed;
+    width: 60%;
     float: left;
     margin-left: 35%;
 }
 
 .nav ul li {
-    width: 120px;
+    width: 20%;
     height: 40px;
     float: left;
     text-align: center;
@@ -39,6 +39,8 @@
 
 .nav ul li a {
     color: white;
+    font-size: 0.7rem;
+    font-family: "微软雅黑";
 }
 
 .user {
