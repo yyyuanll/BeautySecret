@@ -11,15 +11,11 @@ body {
 	overflow: scroll;
 }
 
-.context {
-	width: 100%;
-}
-
 .slogan {
 	position: absolute;
-	top: 0;
+	top: 40px;
 	left: 0;
-	width: 100%;
+	width: 1540px;
 	height: 900px;
     z-index:-10;
 	overflow: hidden;
@@ -35,42 +31,30 @@ body {
 
 .text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
+	top: 420px;
+    width: 1540px;
+	height: 900px;
     text-align: center;
     color: white;
 	font-family: "方正大标宋";
 }
 
 
-.newsbox1{
+.newsbox {
 	position: relative;
 	top: 800px;
 	left: 0;
 	width: 1200px;
 	margin: 35px auto;
 }
-.newsbox2{
-	position: relative;
+.newsbox2 {
 	top: 840px;
-	left: 0;
-	width: 1200px;
-	margin: 35px auto;
 }
-.newsbox3{
-	position: relative;
+.newsbox3 {
 	top: 880px;
-	left: 0;
-	width: 1200px;
-	margin: 35px auto;
 }
-.newsbox4{
-	position: relative;
+.newsbox4 {
 	top: 920px;
-	left: 0;
-	width: 1200px;
-	margin: 35px auto;
 }
 
 
@@ -96,7 +80,7 @@ body {
 	left: 0;
 	text-align: center;
 	height: 350px;
-	width: 100%;
+	width: 1540px;
 }
 
 .p1 {

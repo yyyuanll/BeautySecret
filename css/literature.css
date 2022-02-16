@@ -1,0 +1,238 @@
+*{  
+    margin: 0px;  
+    padding: 0px;  
+	box-sizing:border-box;
+}  
+
+body {
+	background: #f7f7f7;
+}
+
+.context {
+    position: absolute;
+    top: 40px;
+}
+
+.searchplace {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    width: 600px;
+    height: 50px;
+    border-radius: 35px;
+    background: black;
+}
+
+.searchcontext {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 550px;
+    height: 40px;
+    background: white;
+    border-radius: 25px;
+}
+  
+.searchcontext input {
+    background: none;
+    outline: none;
+    border: none;
+    width: 550px;
+    padding-left: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "微软雅黑";
+    color: #333;
+}
+  
+.searchcontext input::placeholder {
+    color: rgb(105, 105, 105);
+    font-size: 0.8rem;
+    font-family: "微软雅黑";
+    font-weight: 500;
+}
+
+.condition {
+    position: absolute;
+    width: 1400px;
+    height: 50px;
+    top: 170px;
+    left: 50px;
+    padding: 15px 0;
+    padding-left: 30px;
+    background: rgb(43, 62, 116);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    font-weight: 800;
+    vertical-align: middle;
+}
+
+.time ul li{
+    float: left;
+}
+  
+.condition input {
+    width: 120px;
+    background: white;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    margin: auto 10px;
+    padding: 0 10px;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    font-family: "微软雅黑";
+    color: #333;
+}
+  
+.condition input::placeholder {
+    color: rgb(141, 141, 141);
+    font-size: 0.8rem;
+    font-family: "微软雅黑";
+    font-weight: 600;
+}
+
+.origin {
+    float: left;
+    margin-left: 100px;
+}
+
+.order {
+    float: right;
+    margin-right: 30px;
+}
+
+.literature {
+	position: relative;
+    width: 1300px;
+    height: 150px;
+    top: 250px;
+    left: 100px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.literature2 {
+    top: 450px;
+}
+.literature3 {
+    top: 650px;
+}
+.literature4 {
+    top: 850px;
+}
+.literature5 {
+    top: 1050px;
+}
+.title {
+    position: absolute;
+	font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    background: rgb(233, 239, 247);
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.auther {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    float: left;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+}
+.auther ul li {
+    float: left;
+    margin: 5px 2px;
+}
+.key {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    float: left;
+    margin-left: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+}
+.key ul li{
+    float: left;
+    margin: 5px 2px;
+}
+.li_origin {
+    position: relative;
+    top: 40px;
+    float: left;
+    margin: 5px 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+}
+.text {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    float: left;
+    margin: 2px;
+    font-size: 0.9rem;
+    color: rgb(61, 61, 61);
+}
+#menu, #menu2{
+    position: absolute;
+    z-index: 20;
+    margin: 10px 40px;
+    text-align: center;
+    display: none;
+    animation: menu_move 0.3s; 
+}
+#menu2 {
+    margin: 10px 70px;
+}
+#menu ul, #menu2 ul{
+    background: rgb(255, 255, 255);
+    width: 120px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(153, 153, 153, 0.568);
+}
+#menu ul li, #menu2 ul li {
+    transition: background 0.3s;
+}
+#menu ul li:first-child, #menu2 ul li:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#menu ul li:last-child, #menu2 ul li:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#menu ul li:hover, #menu2 ul li:hover{
+    background: rgb(233, 239, 247);
+}
+#menu a, #menu2 a {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+}
+#menu div, #menu2 div {
+    position: relative;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top:15px solid transparent;
+    border-right:15px solid transparent;
+    border-left:15px solid transparent;
+    border-bottom:15px solid rgb(255, 255, 255);
+}
+
+@keyframes menu_move
+{
+    0% {top: 20px;}
+    100% {top: 15px;}
+}

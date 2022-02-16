@@ -5,13 +5,201 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/literature.css" />
     <link rel="stylesheet" href="css/reset.css" />
+    <script src="js/literature.js"></script>
     <title>Literature</title>
   </head>
 
   <body>
     <div class="bar">
-      <iframe style="margin: 0px; float: left;" MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="bar.html" width="100%"  height="40px"></iframe>
+      <iframe style="margin: 0px; float: left;z-index: 10;" MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="bar.html" width="1540px" min-width="100%" height="40px"></iframe>
     </div>
-    <div><p>文献</p></div>
+    <div class="context">
+      <div class="searchplace">
+        <div class="searchcontext">
+          <input type="text" placeholder="输入关键词" />
+        </div>
+        <input type="image" src="img/search.png" class="btn solid" width="25px" style="position: absolute; top: 12px; right: 12px;"/>
+      </div>
+
+      <div class="condition">
+        <div class="time">
+          <ul>
+            <li>时间</li>
+            <li><input type="text" placeholder="2022.1" /></li>
+            <li>-</li>
+            <li><input type="text" placeholder="2022.3" /></li>
+          </ul>
+        </div>
+
+        <div class="origin">
+          <p style="float: left;">来源</p>
+          <input id="origin" type="text" placeholder="知网" style="float: left;" readonly/>
+          <div id="menu">
+            <div></div>
+            <ul>
+              <li><a href="#" style="display:block">知网</a></li>
+              <li><a href="#" style="display:block">万方</a></li>
+              <li><a href="#" style="display:block">其他</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="order">
+          <p style="float: left;">排序方式</p>
+          <input id="order" type="text" placeholder="按时间" style="float: left;" readonly/>
+          <div id="menu2">
+            <div></div>
+            <ul>
+              <li><a href="#" style="display:block">按时间</a></li>
+              <li><a href="#" style="display:block">按拼音</a></li>
+              <li><a href="#" style="display:block">按相关程度</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="literature 1">
+        <div class="title">
+          <p class="p1" id="title">化妆品中美白活性成分检测方法研究进展</p>	
+        </div>
+        <div class="auther">
+          <ul>
+            <li><p class="p2" id="auther1">王铭</p></li>
+            <li><p class="p2" id="auther2">唐加利</p></li>
+            <li><p class="p2" id="auther3">龚迎昆</p></li>
+          </ul>
+        </div>
+        <div class="key">
+          <ul>
+            <li><p class="p2" id="key1">美白活性成分</p></li>
+            <li><p class="p2" id="key2">作用机制</p></li>
+            <li><p class="p2" id="key3">安全性</p></li>
+          </ul>       	
+        </div>
+        <div class="li_origin">
+          <p class="p2" id="origin">应用化工2020,49(01)北大核心CSCD</p>	
+        </div>
+        <div class="text">
+          <p class="p3" id="abstract">介绍了化妆品中多种美白活性成分作用机制及其安全性,
+          概括了目前化妆品中常用的具有美白作用的物质及其祛斑原理,并综述了这些美白活性成分的检测手段,
+          展望了化妆品中美白活性成分检测评价方法的未来发展趋势,为化妆品中多种美白活性成分检测方法的发展提供参考。</p>
+        </div>
+      </div>
+
+      <div class="literature 2">
+        <div class="title">
+          <p class="p1" id="title">化妆品中美白活性成分检测方法研究进展</p>	
+        </div>
+        <div class="auther">
+          <ul>
+            <li><p class="p2" id="auther1">王铭</p></li>
+            <li><p class="p2" id="auther2">唐加利</p></li>
+            <li><p class="p2" id="auther3">龚迎昆</p></li>
+          </ul>
+        </div>
+        <div class="key">
+          <ul>
+            <li><p class="p2" id="key1">美白活性成分</p></li>
+            <li><p class="p2" id="key2">作用机制</p></li>
+            <li><p class="p2" id="key3">安全性</p></li>
+          </ul>       	
+        </div>
+        <div class="li_origin">
+          <p class="p2" id="origin">应用化工2020,49(01)北大核心CSCD</p>	
+        </div>
+        <div class="text">
+          <p class="p3" id="abstract">介绍了化妆品中多种美白活性成分作用机制及其安全性,
+          概括了目前化妆品中常用的具有美白作用的物质及其祛斑原理,并综述了这些美白活性成分的检测手段,
+          展望了化妆品中美白活性成分检测评价方法的未来发展趋势,为化妆品中多种美白活性成分检测方法的发展提供参考。</p>
+        </div>
+      </div>
+
+      <div class="literature 3">
+        <div class="title">
+          <p class="p1" id="title">化妆品中美白活性成分检测方法研究进展</p>	
+        </div>
+        <div class="auther">
+          <ul>
+            <li><p class="p2" id="auther1">王铭</p></li>
+            <li><p class="p2" id="auther2">唐加利</p></li>
+            <li><p class="p2" id="auther3">龚迎昆</p></li>
+          </ul>
+        </div>
+        <div class="key">
+          <ul>
+            <li><p class="p2" id="key1">美白活性成分</p></li>
+            <li><p class="p2" id="key2">作用机制</p></li>
+            <li><p class="p2" id="key3">安全性</p></li>
+          </ul>       	
+        </div>
+        <div class="li_origin">
+          <p class="p2" id="origin">应用化工2020,49(01)北大核心CSCD</p>	
+        </div>
+        <div class="text">
+          <p class="p3" id="abstract">介绍了化妆品中多种美白活性成分作用机制及其安全性,
+          概括了目前化妆品中常用的具有美白作用的物质及其祛斑原理,并综述了这些美白活性成分的检测手段,
+          展望了化妆品中美白活性成分检测评价方法的未来发展趋势,为化妆品中多种美白活性成分检测方法的发展提供参考。</p>
+        </div>
+      </div>
+
+
+      <div class="literature 4">
+        <div class="title">
+          <p class="p1" id="title">化妆品中美白活性成分检测方法研究进展</p>	
+        </div>
+        <div class="auther">
+          <ul>
+            <li><p class="p2" id="auther1">王铭</p></li>
+            <li><p class="p2" id="auther2">唐加利</p></li>
+            <li><p class="p2" id="auther3">龚迎昆</p></li>
+          </ul>
+        </div>
+        <div class="key">
+          <ul>
+            <li><p class="p2" id="key1">美白活性成分</p></li>
+            <li><p class="p2" id="key2">作用机制</p></li>
+            <li><p class="p2" id="key3">安全性</p></li>
+          </ul>       	
+        </div>
+        <div class="li_origin">
+          <p class="p2" id="origin">应用化工2020,49(01)北大核心CSCD</p>	
+        </div>
+        <div class="text">
+          <p class="p3" id="abstract">介绍了化妆品中多种美白活性成分作用机制及其安全性,
+          概括了目前化妆品中常用的具有美白作用的物质及其祛斑原理,并综述了这些美白活性成分的检测手段,
+          展望了化妆品中美白活性成分检测评价方法的未来发展趋势,为化妆品中多种美白活性成分检测方法的发展提供参考。</p>
+        </div>
+      </div>
+
+
+      <div class="literature 5">
+        <div class="title">
+          <p class="p1" id="title">化妆品中美白活性成分检测方法研究进展</p>	
+        </div>
+        <div class="auther">
+          <ul>
+            <li><p class="p2" id="auther1">王铭</p></li>
+            <li><p class="p2" id="auther2">唐加利</p></li>
+            <li><p class="p2" id="auther3">龚迎昆</p></li>
+          </ul>
+        </div>
+        <div class="key">
+          <ul>
+            <li><p class="p2" id="key1">美白活性成分</p></li>
+            <li><p class="p2" id="key2">作用机制</p></li>
+            <li><p class="p2" id="key3">安全性</p></li>
+          </ul>       	
+        </div>
+        <div class="li_origin">
+          <p class="p2" id="origin">应用化工2020,49(01)北大核心CSCD</p>	
+        </div>
+        <div class="text">
+          <p class="p3" id="abstract">介绍了化妆品中多种美白活性成分作用机制及其安全性,
+          概括了目前化妆品中常用的具有美白作用的物质及其祛斑原理,并综述了这些美白活性成分的检测手段,
+          展望了化妆品中美白活性成分检测评价方法的未来发展趋势,为化妆品中多种美白活性成分检测方法的发展提供参考。</p>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>
