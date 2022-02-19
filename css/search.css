@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: #f7f7f7;
+	overflow: scroll;
+	text-align: center;
+}
+
+input{
+	width:600px;
+	height:70px;
+	line-height:70px;
+	border-radius: 20px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+
+.search-box{
+	position: relative;
+	top: 160px;
+	width: 1520px;	
+}
+#search_context {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	border: 2px solid black;
+	padding: 0 10px;
+	font-size: 1.1rem;
+}
+.set_1_btn {
+	position: relative;
+	top: 30px;
+    background: rgb(1, 9, 32);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;
+    font-family: "微软雅黑";
+    font-size: 0.9rem;
+	padding: 0.6rem 2rem;
+}
+.set_1_btn:hover {
+	background-color: rgb(197, 209, 231);
+    color: black;
+}
+#button2 {
+	margin-left: 70px;
+}
+
+
+.show-box{
+	position: relative;
+	top: 300px;
+	margin: 0 auto;
+	border-radius: 15px;
+	background-color: white;
+	width: 1000px;
+	height: 300px;
+	margin-top: 50px;
+	padding: 25px;
+	box-shadow: 15px 25px 25px rgb(168, 168, 168);
+}
+.title{
+	position: relative;
+	text-align: left;
+	border-radius: 15px;
+	margin: 10px;
+}
+.key{
+	position: relative;
+	margin: 20px;
+	margin-top: 30px;
+	background: #e6f1ff;
+	border-radius: 15px;
+	width: 160px;
+	height: 160px;
+	text-align: center;
+	display: inline-block;
+	transition: background 0.3s;
+}
+.key:hover{
+	background-color: rgb(197, 209, 231);
+}
+.p1{
+	position: relative;
+	color: black;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.p2{
+	font-family: "微软雅黑";
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: rgb(32, 72, 148);
+	position: relative;
+	line-height: 160px;
+	display: block;
+}

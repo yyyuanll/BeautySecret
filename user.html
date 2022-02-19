@@ -19,17 +19,17 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="#" class="sign-in-form">
+          <form action="user_home.html" class="sign-in-form">
             <h2 class="title">登录</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="用户名" />
+              <input id="username" type="text" placeholder="用户名" />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="密码" />
+              <input id="password" type="password" placeholder="密码" />
             </div>
-            <input type="submit" value="立即登录" class="btn solid" />
+            <input type="submit" value="立即登录" class="btn solid" onclick="return check()"/>
             <p class="social-text">或通过第三方平台登录</p>
             <div class="social-media">
               <a href="#" class="social-icon">
@@ -109,6 +109,6 @@
         </div>
       </div>
     </div>
-    <script src="js/user.js"></script>
+    <script type="text/javascript" src="js/user.js"></script>
   </body>
 </html>

@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+	background: #f7f7f7;
+	overflow: scroll;
+	width: 1520px;
+}
+.show-box{
+	position: relative;
+	border-radius: 15px;
+	background-color: white;
+	width: 630px;
+	height: 170px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+}
+.title{
+	position: relative;
+	top: 10px;
+	border-radius: 15px;
+}
+.key{
+	position: relative;
+	top: 20px;
+	margin: 10px;
+	background-color: #e6f1ff;
+	border-radius: 15px;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	display: inline-block;
+	transition: background 0.3s;
+	text-align: center;
+}
+.key:hover{
+	background-color: rgb(197, 209, 231);
+}
+
+.p1{
+	font-family: "方正大标宋";
+	font-size: 1.8rem;
+	text-align: center;
+	color: black;
+	position: relative;
+}
+.p2{
+	position: relative;
+	font-family: "微软雅黑";
+	font-size: 1rem;
+	color: black;
+	display: block;
+}

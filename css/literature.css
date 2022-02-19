@@ -19,18 +19,19 @@ body {
     left: 50px;
     width: 600px;
     height: 50px;
-    border-radius: 35px;
+    border-radius: 15px;
     background: black;
 }
 
 .searchcontext {
     position: relative;
-    top: 5px;
-    left: 5px;
+    top: 0;
+    left: 0;
     width: 550px;
-    height: 40px;
+    height: 50px;
     background: white;
-    border-radius: 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
 }
   
 .searchcontext input {
@@ -39,11 +40,12 @@ body {
     border: none;
     width: 550px;
     padding-left: 20px;
-    line-height: 40px;
+    line-height: 45px;
     font-weight: 500;
     font-size: 1rem;
     font-family: "微软雅黑";
     color: #333;
+    font-weight: lighter;
 }
   
 .searchcontext input::placeholder {
@@ -128,18 +130,23 @@ body {
 .literature5 {
     top: 1050px;
 }
-.title {
-    position: absolute;
+#title {
+    position: relative;
 	font-size: 1.2rem;
     font-weight: bold;
     color: #333;
     background: rgb(233, 239, 247);
     border-radius: 10px;
     padding: 5px 15px;
+    transition: background 0.3s;
+    display: inline-block;
+}
+#title:hover{
+    background: rgb(199, 223, 255);
 }
 .auther {
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 10px;
     float: left;
     font-size: 0.9rem;
@@ -152,7 +159,7 @@ body {
 }
 .key {
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 10px;
     float: left;
     margin-left: 30px;
@@ -166,7 +173,7 @@ body {
 }
 .li_origin {
     position: relative;
-    top: 40px;
+    top: 10px;
     float: left;
     margin: 5px 30px;
     font-size: 0.9rem;
@@ -175,7 +182,7 @@ body {
 }
 .text {
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 10px;
     float: left;
     margin: 2px;

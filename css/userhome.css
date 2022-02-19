@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: #f7f7f7;
+	overflow: scroll;
+}
+
+.profile {
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    top: 100px;
+    left: 40px;
+    width: 900px;
+    height: 350px;
+}
+#user_pic {
+    position: relative;
+    margin: 0 auto;
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    background-size: cover;
+    object-fit: cover;
+}
+#user_name {
+    position: absolute;
+    top: 110px;
+    left: 360px;
+    font-size: 2.8rem;
+    font-family: "方正大标宋";
+}
+#settings {
+    position: absolute;
+    background: #000000;
+    padding: 6px 6px 6px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 50px;
+    top: 180px;
+    left: 360px;
+}
+#exit {
+    position: absolute;
+    background: #000000;
+    padding: 6px 20px 6px 6px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 50px;
+    top: 180px;
+    left: 410px;
+}
+.history {
+    position: absolute;
+    top: 80px;
+    left:1100px;
+    width: 400px;
+}
+.historybox {
+    padding: 15px;
+    background: white;
+    color: #000;
+    border-radius: 10px;
+    margin: 10px auto;
+    transition: background 0.3s;
+}
+.historybox:hover {
+    background: rgb(233, 239, 247);
+}
+#title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+#text {
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+    overflow:hidden;
+    text-overflow:ellipsis; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 0.9rem;
+}
+
+.bookmark {
+    position: relative;
+    top: 150px;
+    left: 40px;
+    width: 900px;
+    height: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.bookmark #btitle {
+    position: relative;
+    display: table;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.bookmark .bcontext {
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+.bookmark .bcontext:hover {
+    background: rgb(233, 239, 247);
+}
+
+.bookmark #title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.bookmark #text {
+    width: auto;
+    height: auto;
+    overflow:hidden;
+    text-overflow:ellipsis; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 0.9rem;
+}

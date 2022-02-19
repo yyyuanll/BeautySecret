@@ -9,3 +9,13 @@ sign_up_btn.addEventListener("click", () => {
 sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
 });
+
+function check(){
+  var username = document.getElementById("username");
+  var password = document.getElementById("password");
+  if( username.value == "u" && password.value == "123") {
+    return true;
+  } else {
+    return false;
+  }
+}
